@@ -3,7 +3,7 @@
 [x] somar
 [x] subtrair
 [x] multiplicar
-[] dividir
+[x] dividir
 [] porcentagem
 [] exponenciacao
 [] 
