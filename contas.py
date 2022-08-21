@@ -28,3 +28,9 @@ def porcentagem(num1, num2):
     por = (num1 / 100) * num2
     resultado = (f"{num1} porcento de {num2} é {por}")
     return resultado
+
+
+def exponenciacao(num1, num2):
+    expo = num1 ** num2
+    resultado = (f"{num1} elevado a {num2} é {expo}")
+    return resultado

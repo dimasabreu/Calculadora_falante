@@ -46,3 +46,12 @@ elif opcao == "porcentagem":
     engine = pyttsx3.init()
     engine.say(contas.porcentagem(num1, num2))
     engine.runAndWait()
+elif opcao == "exponenciação":
+    num1 = float(input("Digite um numero: "))
+    num2 = float(input("Digite outro numero: "))
+    print(contas.exponenciacao(num1, num2))
+    engine = pyttsx3.init()
+    engine.say(contas.exponenciacao(num1, num2))
+    engine.runAndWait()
+else:
+    exit()

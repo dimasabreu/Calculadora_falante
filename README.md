@@ -12,5 +12,5 @@ Ao iniciar o programa ela vai te perguntar o que fazer, espere a mensagem na tel
 [x] multiplicar
 [x] dividir
 [x] porcentagem
-[] exponenciação
-[] 
+[x] exponenciação
+
