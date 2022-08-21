@@ -16,3 +16,9 @@ def multiplicar(num1, num2):
     mult = num1 * num2
     resultado = (f"A multiplicação dos numeros é {mult}")
     return resultado
+
+
+def dividir(num1, num2):
+    div = num1 / num2
+    resultado = (f"A divisão dos numeros é {div}")
+    return resultado
