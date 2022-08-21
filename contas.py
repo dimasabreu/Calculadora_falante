@@ -22,3 +22,9 @@ def dividir(num1, num2):
     div = num1 / num2
     resultado = (f"A divisão dos numeros é {div}")
     return resultado
+
+
+def porcentagem(num1, num2):
+    por = (num1 / 100) * num2
+    resultado = (f"{num1} porcento de {num2} é {por}")
+    return resultado

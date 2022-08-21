@@ -39,3 +39,10 @@ elif opcao == "dividir":
     engine = pyttsx3.init()
     engine.say(contas.dividir(num1, num2))
     engine.runAndWait()
+elif opcao == "porcentagem":
+    num1 = float(input("Digite um numero: "))
+    num2 = float(input("Digite outro numero: "))
+    print(contas.porcentagem(num1, num2))
+    engine = pyttsx3.init()
+    engine.say(contas.porcentagem(num1, num2))
+    engine.runAndWait()

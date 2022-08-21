@@ -4,6 +4,6 @@
 [x] subtrair
 [x] multiplicar
 [x] dividir
-[] porcentagem
+[x] porcentagem
 [] exponenciacao
 [] 
