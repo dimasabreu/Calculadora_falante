@@ -25,3 +25,10 @@ elif opcao == "subtrair":
     engine = pyttsx3.init()
     engine.say(contas.subtrair(num1, num2))
     engine.runAndWait()
+elif opcao == "multiplicar":
+    num1 = float(input("Digite um numero: "))
+    num2 = float(input("Digite outro numero: "))
+    print(contas.multiplicar(num1, num2))
+    engine = pyttsx3.init()
+    engine.say(contas.multiplicar(num1, num2))
+    engine.runAndWait()
