@@ -2,7 +2,7 @@
 Criando uma calculadora por voz
 
 [x] somar
-[] subtrair
+[x] subtrair
 [] multiplicar
 [] dividir
 [] porcentagem

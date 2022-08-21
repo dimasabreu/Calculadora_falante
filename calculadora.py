@@ -1,6 +1,6 @@
 import pyttsx3
 import speech_recognition as sr
-import calculadora
+import contas
 
 r = sr.Recognizer()
 with sr.Microphone() as source:
@@ -14,7 +14,14 @@ with sr.Microphone() as source:
 if opcao == "somar":
     num1 = float(input("Digite um numero: "))
     num2 = float(input("Digite outro numero: "))
-    print(calculadora.somar(num1, num2))
+    print(contas.somar(num1, num2))
     engine = pyttsx3.init()
-    engine.say(calculadora.somar(num1, num2))
+    engine.say(contas.somar(num1, num2))
+    engine.runAndWait()
+elif opcao == "subtrair":
+    num1 = float(input("Digite um numero: "))
+    num2 = float(input("Digite outro numero: "))
+    print(contas.subtrair(num1, num2))
+    engine = pyttsx3.init()
+    engine.say(contas.subtrair(num1, num2))
     engine.runAndWait()
