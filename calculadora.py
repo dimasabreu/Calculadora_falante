@@ -4,10 +4,12 @@ import contas
 
 r = sr.Recognizer()
 with sr.Microphone() as source:
+    print("""Bem-vindo a Calculadora falante!
+(espere sempre uma confirmação visual)""")
     engine = pyttsx3.init()
     engine.say("Fale o que você gostaria de fazer")
     engine.runAndWait()
-    print("Fale o que você gostaria de fazer:")
+    print("Fale o que voce gostaria de fazer:")
     audio = r.listen(source)
     opcao = r.recognize_google(audio, language="pt-BR")
     print(opcao)
