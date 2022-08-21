@@ -1,4 +1,4 @@
-#calculadora que fala
+#calculadora-que-fala
 Ao iniciar o programa ela vai te perguntar o que fazer, espere a mensagem na tela e diga sua opção:
     "somar" para somar
     "subtrair" para subtrair
