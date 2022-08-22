@@ -10,13 +10,13 @@ Ao iniciar o programa ela vai te perguntar o que fazer, espere a mensagem na tel
 
 Após isso espere a confirmação visual e diga os valores um de cada vez esperando a confirmação visual.
 
-- [] melhorar o codigo 
+- [ ] melhorar o codigo 
 - [x] somar
 - [x] subtrair
 - [x] multiplicar
 - [x] dividir
 - [x] porcentagem
 - [x] exponenciação
-- [] media
-- [] primo
-- [] raiz quadrada
+- [ ] media
+- [ ] primo
+- [ ] raiz quadrada
